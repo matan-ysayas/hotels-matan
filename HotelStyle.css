@@ -20,6 +20,8 @@ ul{
  ul a{
      text-decoration: none;
      color: black;
+     font-weight: 600;
+     font-size: large;
  }
  
 
@@ -42,6 +44,7 @@ ul{
     left: 8%;
     font-size: x-large;
     line-height: 45px;
+    font-weight: 600;
 }
 #titlePricing{
     margin-top: 20vh;
@@ -55,6 +58,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-weight: 600;
 }
 #roomprice article{
     width:40% ;
@@ -83,16 +87,18 @@ ul{
     justify-content: space-evenly;
     font-weight: bold;
     text-align: center;
+    
 }
 #stuff img{
     width: 50%;
     clip-path: circle(40%);
+    
 }
 #formtit{
    text-align: center;
    font-size: xx-large;
     font-weight: bolder;
-    margin-top: 40vh;
+    margin-top: 50vh;
 
 }
 #bookingform{
@@ -102,11 +108,26 @@ ul{
     flex-direction: column;
     align-items: center;
     margin-left: 10%;
-    margin-top:10% ;}
+    margin-top: 30px ;
+    
+}
+#bookingform label{
+    font-size: x-large;
+    
+}
+
     img:hover{
         filter: brightness(150%);
     }
     img{
         transition: 1s;
+    }
+    @media screen and (max-width:600px){
+       
+        #roomprice{height: 250vh;
+        }
+        #roomprice img { width: 40%;}
+        ul{font-size: small;}
+
     }
    
