@@ -1,0 +1,103 @@
+*{margin: 0;
+padding: 0;}
+body{
+    background: url(/imgs/backround.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+   
+ul{
+   display: flex;
+   justify-content: space-evenly ;
+   
+   list-style: none;
+ 
+   
+}
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+#title{
+    color: aliceblue;
+    display:flex;
+    justify-content: center ;
+    
+}
+
+#hotelsinfo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    
+   
+    
+}
+
+#hotelsinfo img{
+    width: 400px;
+    height:50vh;
+    clip-path: circle(40%);
+    
+}
+#hotelsinfo h2 ,p {
+    color: ivory;
+   
+
+}
+#attractionstit{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: ivory;
+
+    
+}
+#events{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+#events img{
+    width: 500px;
+    height:50vh;
+    
+    
+}
+#booking{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: ivory;
+}
+#orderform{
+    width: 80%;
+    height: 100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-top:10% ;
+}
+img:hover{
+    filter: brightness(150%);
+}
+img{
+    transition: 1s;
+}
+#hotelsinfo a {
+    color: cornsilk;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
