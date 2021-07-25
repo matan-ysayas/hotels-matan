@@ -12,8 +12,9 @@ body{
 ul{
     display: flex;
     justify-content: space-evenly ;
-    
     list-style: none;
+    font-family: 'Indie Flower', cursive;
+    
   
     
  }
@@ -30,13 +31,19 @@ ul{
     width: 100%;
     height: 100vh;
     position: relative;
+    animation-name:welcomepart ;
+    font-family: 'Indie Flower', cursive;
+    
+    
    
 }
+
 #welcomepart h1{
     position: absolute;
     top: 25%;
     left: 8%;
     font-size: xx-large;
+
 }
 #welcomepart p{
     position: absolute;
@@ -50,6 +57,7 @@ ul{
     margin-top: 20vh;
     text-align: center;
     font-size: xxx-large; 
+    font-family: 'Indie Flower', cursive;
 }
 #roomprice{
     width: 100%;
@@ -59,6 +67,8 @@ ul{
     flex-wrap: wrap;
     justify-content: space-around;
     font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+    
 }
 #roomprice article{
     width:40% ;
@@ -76,8 +86,9 @@ ul{
 }
 #stufftit{
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 35vh;
     font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
 }
 #stuff{
     display: flex;
@@ -87,6 +98,7 @@ ul{
     justify-content: space-evenly;
     font-weight: bold;
     text-align: center;
+    font-family: 'Indie Flower', cursive;
     
 }
 #stuff img{
@@ -99,6 +111,7 @@ ul{
    font-size: xx-large;
     font-weight: bolder;
     margin-top: 50vh;
+    font-family: 'Indie Flower', cursive;
 
 }
 #bookingform{
@@ -109,7 +122,7 @@ ul{
     align-items: center;
     margin-left: 10%;
     margin-top: 30px ;
-    
+    font-family: 'Indie Flower', cursive;
 }
 #bookingform label{
     font-size: x-large;
@@ -118,6 +131,7 @@ ul{
 
     img:hover{
         filter: brightness(150%);
+        
     }
     img{
         transition: 1s;

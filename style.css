@@ -10,14 +10,15 @@ body{
 ul{
    display: flex;
    justify-content: space-evenly ;
-   
    list-style: none;
+   font-family: 'Indie Flower', cursive;
  
    
 }
 ul a{
     text-decoration: none;
     color: aliceblue;
+   
 }
 
 
@@ -25,6 +26,8 @@ ul a{
     color: aliceblue;
     display:flex;
     justify-content: center ;
+    font-family: 'Indie Flower', cursive;
+    
     
 }
 
@@ -35,6 +38,7 @@ ul a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 10%;
+    font-family: 'Indie Flower', cursive;
     
    
     
@@ -48,6 +52,7 @@ ul a{
 }
 #hotelsinfo h2 ,p {
     color: rgba(233, 233, 200, 0.829);
+    font-family: 'Indie Flower', cursive;
    
 
 }
@@ -56,6 +61,7 @@ ul a{
     justify-content: center;
     margin-top: 20%;
     color: ivory;
+    font-family: 'Indie Flower', cursive;
 
     
 }
@@ -67,6 +73,8 @@ ul a{
     justify-content: space-evenly;
     margin-top: 10%;
     color: azure;
+    
+
 }
 #events img{
     width: 500px;
@@ -90,6 +98,7 @@ ul a{
     align-items: center;
     margin-left: 10%;
     margin-top:10% ;
+    font-family: 'Indie Flower', cursive;
 }
 img:hover{
     filter: brightness(150%);
@@ -101,6 +110,7 @@ img{
     color: cornsilk;
     text-decoration: none;
     border-bottom: 1px solid;
+    
 }
 @media screen and (max-width:600px){
     ul{font-size: small;}
